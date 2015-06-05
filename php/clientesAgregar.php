@@ -50,7 +50,7 @@ if ( isset($_POST['nombre']) ){
 					<div class="row">
 						<div class="col-md-12 col-lg-6">
 							<div class="form-group">
-								<label class="col-lg-3 control-label">Direccion</label>
+								<label class="col-lg-3 control-label">Direcci&oacute;n</label>
 								<div class="col-lg-9"><input type="text" name="direccion" class="form-control" placeholder=""></div>
 							</div>
 						</div>
