@@ -19,8 +19,8 @@
 			<thead>
 				<tr>
 					<th width="150">Privilegios</th>
-					<th>Nombre</th>
-					<th width="200">Nombre de Usuario</th>
+					<th>Nombre de Usuario</th>
+					<th width="200">Usuario</th>
 					<th width= "150">Ultimo Acceso</th>
 					<th width="120"></th>
 				</tr>
