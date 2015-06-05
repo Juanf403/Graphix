@@ -28,7 +28,7 @@ if ( isset($_POST['nombre']) ){
 				<div class="pull-right">
 					<a href="" class="return"><i class="fa fa-mail-reply"></i> Regresar</a>
 				</div>
-				<i class="fa fa-circle icon"></i> Agregar Usuario
+				<i class="fa fa-plus icon"></i> Agregar Usuario
 			</header>
 			<div class="panel-body">
 				<form class="bs-example form-horizontal" action="" method="post">
