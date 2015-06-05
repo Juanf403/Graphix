@@ -4,7 +4,7 @@
 	
 	<div class="row wrapper">
 		<div class="col-sm-2 m-b-xs">
-			<a href="admin.php?m=UsuariosAgregar" class="pull-left btn btn-sm btn-success"><i class="fa fa-plus"></i> Nuevo Usuario </a>
+			<a href="admin.php?m=usuariosAgregar" class="pull-left btn btn-sm btn-success"><i class="fa fa-plus"></i> Nuevo Usuario </a>
 		</div>
 		<div class="col-sm-7 m-b-xs text-center"></div>
 		<div class="col-sm-3">

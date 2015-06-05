@@ -14,18 +14,32 @@ if ( isset($_GET['m']) ){
 		/* clientes */
 		case "clientes":
 			$paginaPHP = "php/clientes.php";
-		break;
+			break;
 		case "clientesAgregar":
 			$paginaPHP = "php/clientesAgregar.php";
-		break;
+			break;
 		case "clientesEditar":
 			$paginaPHP = "php/clientesEditar.php";
-		break;
-		case "Usuarios":
-			$paginaPHP = "php/Usuarios.php";
 			break;
-		case "UsuariosAgregar":
-			$paginaPHP = "php/UsuariosAgregar.php";
+			/* ordenes */
+		case "ordenes":
+			$paginaPHP = "php/ordenes.php";
+			break;
+		case "ordenesAgregar":
+			$paginaPHP = "php/ordenesAgregar.php";
+			break;
+		case "ordenesEditar":
+			$paginaPHP = "php/ordenesEditar.php";
+			break;
+		/* usuarios */
+		case "usuarios":
+			$paginaPHP = "php/usuarios.php";
+			break;
+		case "usuariosAgregar":
+			$paginaPHP = "php/usuariosAgregar.php";
+			break;
+		case "usuariosEditar":
+			$paginaPHP = "php/usuariosEditar.php";
 			break;
 
 	}
@@ -80,10 +94,11 @@ $errorMsg = "";
 								<nav class="nav-primary hidden-xs">
 									<ul class="nav">
 										<li> <a href="admin.php?m=clientes"> <i class="fa fa-angle-right"></i> <span>Clientes</span> </a> </li>
+										<li> <a href="admin.php?m=ordenes"> <i class="fa fa-angle-right"></i> <span>Ordenes</span> </a> </li>
 										<li class="">
 											<a href="#webpage" class=""><i class="fa fa-angle-right icon"></i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>Configuracion</span> </a>
 											<ul class="nav lt" style="display: none;">
-												<li> <a href="admin.php?m=Usuarios"> <i class="fa fa-angle-right"></i> <span>Usuarios</span> </a> </li>
+												<li> <a href="admin.php?m=usuarios"> <i class="fa fa-angle-right"></i> <span>Usuarios</span> </a> </li>
 												<li> <a href="admin.php?m=blog"> <i class="fa fa-angle-right"></i> <span>Clientes</span> </a> </li>
 											</ul>
 										</li>
